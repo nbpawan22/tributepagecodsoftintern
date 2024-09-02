@@ -1,0 +1,33 @@
+body{
+    color: white;
+    background-image: url(bgimg.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+@media(max-width:1438px){
+    h1{
+        font-size: x-large;
+    }
+}
+*{
+    text-decoration: none;
+}
+#learnmore{
+    color: white;
+    border: 2px solid blue;
+    font-size: large;
+    padding: 2px;
+    border-radius: 10px;
+}
+#learnmore:hover{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    transition: 0.2s;
+    border: 2px solid white;
+}
